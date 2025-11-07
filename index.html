@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desa Pintar</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <header>
+        <img class="logo" src="assets/img/desa_pintar.png" alt="Desa Pintar" />
+      </header>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li class="list"><a href="index.html" class="link">Beranda</a></li>
+          <li class="list"><a href="#profil" class="link">Profil</a></li>
+          <li class="list"><a href="#berita" class="link">Berita</a></li>
+          <li class="list data-desa">
+            <a href="#datadesa" class="link">Data Desa</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+            </svg>
+          </li>
+          <li class="list"><a href="#peta" class="link">Peta</a></li>
+          <li class="list"><a href="#tokodesa" class="link">Toko Desa</a></li>
+        </ul>
+        <div class="btn btn-login">
+          <a href="login.html" class="link-login">Masuk</a>
+        </div>
+      </nav>
+    </div>
+
+    <section id="hero">
+        <div class="hero-section">
+            <div class="text-hero">
+                <div class="hero-title">
+                    <h1 class="title-hero1">Desa</h1>
+                    <h1 class="title-hero2">Prawatan</h1>
+                </div>
+                <div class="hero-subtitle">
+                    <p class="subtitle-hero">
+                    Desa Pintar merupakan inovasi desa di bidang teknologi dan
+                    informasi, yang diawali dengan pembangunan basis data geospasial.
+                    </p>
+                </div>
+                <div class="btn btn-hero">
+                    <a href="#" class="link-hero">
+                      Explore Desa
+                    </a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-arrow-right icon-row-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="hero-images">
+                <img src="assets/img/hero1.png" alt="hero image" class="img-hero" />
+                <img src="assets/img/hero2.png" alt="hero image" class="img-hero radius"/>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- content -->
+    <div class="container">
+      <section id="box">
+        <div class="box">
+          <h2 class="title-box">APB Desa</h2>
+          <p class="subtitle-box">
+            Transparansi pengelolaan keuangan merupakan bentuk pengawasan
+            penggunaan dan pengelolaan anggaran pendapatan dan belanja desa,
+            serta sebagai sosialisasi dan wadah penerapan program 'Padat Karya'.
+            Berikut kami sajikan grafik pendapatan dan belanja desa.
+          </p>
+          <div class="btn btn-box">
+            <a href="#" class="link-box">Tampilkan</a>
+          </div>
+        </div>
+      </section>
+      <!-- end section box -->
+
+
+      <section id="berita">
+        <div class="berita">
+          <div class="header-berita">
+            <h2 class="title-berita">Berita</h2>
+            <div class="border-bottom"></div>
+            <p class="subtitle-berita">
+              Temukan berita menarik tentang Desa Toapaya Utara disini
+            </p>
+          </div>
+          <div class="cta">
+            <a href="#" class="cta-berita">Lihat Semua</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+          </div>
+          <div class="card-berita">
+            <div class="card">
+              <div class="image-card">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="card image"
+                  class="img-card"
+                />
+              </div>
+              <div class="content-card">
+                <p class="tgl-card">Selasa, 15 Maret 2022</p>
+                <h3 class="title-card">
+                  83 KK di Desa Toapaya Utara Terima BLT Triwulan I-2022
+                </h3>
+                <p class="subtitle-card">
+                  Lorem ipsum dolor sit amet consectetur. Integer tempar aliquet
+                  enim diam placerat scelerisque varius semper ante. Et magna
+                  tincidunt volupat ultricos adipiscing alquet consectetor
+                  rhoncus. Donoc laoreet null...
+                </p>
+                <div class="btn-card">
+                  <a href="#" class="link-berita">Baca Selengkapnya ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-card">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="card image"
+                  class="img-card"
+                />
+              </div>
+              <div class="content-card">
+                <p class="tgl-card">Selasa, 15 Maret 2022</p>
+                <h3 class="title-card">
+                  83 KK di Desa Toapaya Utara Terima BLT Triwulan I-2022
+                </h3>
+                <p class="subtitle-card">
+                  Jalan menuju Kampung Pinang rusak akibat kendaraan berat tadi
+                  malam
+                </p>
+                <div class="btn2-card">
+                  <a href="#" class="link-berita">Baca Selengkapnya ></a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-card">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="card image"
+                  class="img-card"
+                />
+              </div>
+              <div class="content-card">
+                <p class="tgl-card">Selasa, 15 Maret 2022</p>
+                <h3 class="title-card">
+                  83 KK di Desa Toapaya Utara Terima BLT Triwulan I-2022
+                </h3>
+                <p class="subtitle-card">
+                  Jalan menuju Kampung Pinang rusak akibat kendaraan berat tadi
+                  malam
+                </p>
+                <div class="btn2-card">
+                  <a href="#" class="link-berita">Baca Selengkapnya ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section berita -->
+
+
+      <!-- section informasi -->
+      <section id="informasi">
+        <div class="informasi">
+          <div class="header-informasi">
+            <h2 class="title-informasi">informasi</h2>
+            <div class="border-bottom"></div>
+            <p class="subtitle-informasi">
+              Temukan informasi menarik tentang Desa Toapaya Utara disini
+            </p>
+          </div>
+          <div class="cta">
+            <a href="#" class="cta-informasi">Lihat Semua</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+          </div>
+          <div class="card-informasi">
+            <div class="card">
+              <div class="tanggal-card">
+                <h2 class="tgl-card-informasi">04</h2>
+                <h4 class="tgl-card-informasi2">Februari 2023</h4>
+                <p class="tgl-card-informasi3">08:00 - 12:00</p>  
+              </div>
+              <div class="content-card">
+                <h3 class="title-card">
+                  Penyuluhan pertanian
+                </h3>
+                <p class="subtitle-card">
+                  Lorem ipsum
+                </p>
+              </div>
+              <div class="btn-card">
+                <a href="#" class="link-informasi">Lihat Detail</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="tanggal-card">
+                <h2 class="tgl-card-informasi">04-05</h2>
+                <h4 class="tgl-card-informasi2">Februari 2023</h4>
+                <p class="tgl-card-informasi3">08:00 - 12:00</p>  
+              </div>
+              <div class="content-card">
+                <h3 class="title-card">
+                  Penyuluhan Budidaya Ternak ikan
+                </h3>
+                <p class="subtitle-card">
+                  Lorem ipsum dolor sit amet consectetur. Fougiat justo sed magna malesuada quam. Integer vitae lectus at commodo viverra arcu at, Lectus non euismod convali s lacus variu...
+                </p>
+              </div>
+              <div class="btn-card">
+                <a href="#" class="link-informasi">Lihat Detail</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="tanggal-card-3">
+                <h2 class="tgl-card-informasi tgl-3">04</h2>
+                <h4 class="tgl-card-informasi2 tgl-4">Februari 2023</h4>
+                <h2 class="tgl-card-informasi tgl-3 tgl-5">05</h2>
+                <h4 class="tgl-card-informasi2 tgl-4 tgl-5">Desember 2024</h4>
+                <p class="tgl-card-informasi3 tgl-5">08:00 - 12:00</p>  
+              </div>
+              <div class="content-card">
+                <h3 class="title-card">
+                  Sosialisasi Hasil Perubahan RKPD periode 2024 - 2026 Desa Prawatan Jogonalan Klaten
+                </h3>
+                <p class="subtitle-card">
+                  Lorem ipsum dolor sit amet consectetur. Fougiat justo sed magna malesuada quam. Inte...
+                </p>
+              </div>
+              <div class="btn-card">
+                <a href="#" class="link-informasi">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- section potensi -->
+      <section id="potensi">
+        <div class="potensi">
+          <div class="header-potensi">
+            <h2 class="title-potensi">Potensi</h2>
+            <div class="border-bottom"></div>
+          </div>
+          <div class="list-items">
+            <ul class="list-links">
+              <li class="item">
+                <a href="#" class="link-potensi">Semua</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link-potensi">UMKM</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link-potensi">Bumdes</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link-potensi">Wisata</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link-potensi">Produk/Jasa</a>
+              </li>
+              <li class="item">
+                <a href="#" class="link-potensi">Properti</a>
+              </li>
+            </ul>
+          </div>
+          <div class="list-items-2">
+            <ul class="list-links-2">
+              <li class="item-2">
+                <a href="#" class="link-potensi-2">Tambah Potensi</a>
+              </li>
+              <li class="item-2">
+                <a href="#" class="link-potensi-2">Lihat Peta</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cta-potensi">
+            <a href="#" class="cta-berita">Lihat Semua</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+          </div>
+          <!-- card -->
+           <div class="card-potensi">
+            <div class="card-potensi-item">
+              <div class="card-image">
+                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+              </div>
+              <div class="card-content">
+                <div class="category">
+                  <p class="category-item">Wisata</p>
+                  <p class="harga-item">Rp 15.000</p>
+                </div>
+                <h3 class="card-title">Counter Es WDD</h3>
+                <p class="deskripsi">
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                </p>
+              </div>
+            </div>
+            <div class="card-potensi-item">
+              <div class="card-image">
+                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+              </div>
+              <div class="card-content">
+                <div class="category">
+                  <p class="category-item">Wisata</p>
+                  <p class="harga-item">Rp 15.000</p>
+                </div>
+                <h3 class="card-title">Counter Es WDD</h3>
+                <p class="deskripsi">
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                </p>
+              </div>
+            </div>
+            <div class="card-potensi-item">
+              <div class="card-image">
+                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+              </div>
+              <div class="card-content">
+                <div class="category">
+                  <p class="category-item">Wisata</p>
+                  <p class="harga-item">Rp 15.000</p>
+                </div>
+                <h3 class="card-title">Counter Es WDD</h3>
+                <p class="deskripsi">
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                </p>
+              </div>
+            </div>
+            <div class="card-potensi-item">
+              <div class="card-image">
+                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+              </div>
+              <div class="card-content">
+                <div class="category">
+                  <p class="category-item">Wisata</p>
+                  <p class="harga-item">Rp 15.000</p>
+                </div>
+                <h3 class="card-title">Counter Es WDD</h3>
+                <p class="deskripsi">
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                </p>
+              </div>
+            </div>
+            <div class="card-potensi-item">
+              <div class="card-image">
+                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+              </div>
+              <div class="card-content">
+                <div class="category">
+                  <p class="category-item">Wisata</p>
+                  <p class="harga-item">Rp 15.000</p>
+                </div>
+                <h3 class="card-title">Counter Es WDD</h3>
+                <p class="deskripsi">
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                </p>
+              </div>
+            </div>
+            <div class="card-potensi-item">
+              <div class="card-image">
+                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+              </div>
+              <div class="card-content">
+                <div class="category">
+                  <p class="category-item">Wisata</p>
+                  <p class="harga-item">Rp 15.000</p>
+                </div>
+                <h3 class="card-title">Counter Es WDD</h3>
+                <p class="deskripsi">
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                </p>
+              </div>
+            </div>
+           </div>
+        </div>
+      </section>
+      <!-- end section -->
+
+
+
+      <!-- start section layanan -->
+      <section id="layanan">
+        <div class="layanan">
+          <div class="header-layanan">
+            <h2 class="title-layanan">Layanan</h2>
+            <div class="border-bottom"></div>
+          </div>
+        </div>
+        <div class="layanan-card">
+          <div class="card">
+            <div class="icon-card">
+              <img src="assets/img/icon-1.png" alt="icon card">
+            </div>
+            <h3 class="title-card">Surat Pengantar</h3>
+          </div>
+          <div class="card">
+            <div class="icon-card">
+              <img src="assets/img/icon-2.png" alt="icon card">
+            </div>
+            <h3 class="title-card">Surat Keterangan</h3>
+          </div>
+          <div class="card">
+            <div class="icon-card">
+              <img src="assets/img/icon-3.png" alt="icon card">
+            </div>
+            <h3 class="title-card">Surat Rekomendasi</h3>
+          </div>
+          <div class="card">
+            <div class="icon-card">
+              <img src="assets/img/icon-4.png" alt="icon card">
+            </div>
+            <h3 class="title-card">Surat Pernyataan</h3>
+          </div>
+        </div>
+      </section>
+      <!-- end section -->
+
+
+
+      <!-- section lapor online -->
+      <section id="lapor-online">
+        <div class="lapor">
+          <div class="header-lapor">
+            <h2 class="title-lapor">Lapor Online</h2>
+            <div class="border-bottom"></div>
+          </div>
+          <div class="buttons">
+            <div class="btn btn-laporkan">
+              <a href="#" class="link-laporkan">Laporkan</a>
+            </div>
+            <div class="cta">
+              <a href="#" class="cta-lapor">Lihat Semua</a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg>
+            </div>
+          </div>
+            <!-- inti laporkan -->
+           <div class="card-list">
+            <div class="card">
+              <!-- tanggal -->
+              <div class="tgl-card">
+                <div class="lingkaran"></div>
+                <h4 class="tanggal">22 Mei 2020</h4>
+                <div class="garis-putus-putus"></div>
+              </div>
+
+              <!-- card -->
+              <div class="card-content">
+                <div class="image-card">
+                  <img src="assets/img/hero1.png" alt="image card" class="img-card">
+                </div>
+                <div class="content">
+                  <div class="category">
+                    <p class="category-item">#Bencana Alam</p>
+                    <div class="tanggapan">
+                      <p class="tanggapan-item">Ditanggapi</p>
+                    </div>
+                  </div>
+                  <h3 class="title-card">Jalan Rusak</h3>
+                  <p class="deskripsi">
+                    Jalan menuju Kampung Pinang rusak parah akibat kendaraan truk bermuatan berat tadi malam
+                  </p>
+                  <p class="waktu">14:27 WIB</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <!-- tanggal -->
+              <div class="tgl-card">
+                <div class="lingkaran"></div>
+                <h4 class="tanggal">22 Mei 2020</h4>
+                <div class="garis-putus-putus"></div>
+              </div>
+
+              <!-- card -->
+              <div class="card-content">
+                <div class="image-card">
+                  <img src="assets/img/hero1.png" alt="image card" class="img-card">
+                </div>
+                <div class="content">
+                  <div class="category">
+                    <p class="category-item">#Bencana Alam</p>
+                    <div class="tanggapan">
+                      <p class="tanggapan-item">Ditanggapi</p>
+                    </div>
+                  </div>
+                  <h3 class="title-card">Jalan Rusak</h3>
+                  <p class="deskripsi">
+                    Jalan menuju Kampung Pinang rusak parah akibat kendaraan truk bermuatan berat tadi malam
+                  </p>
+                  <p class="waktu">14:27 WIB</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <!-- tanggal -->
+              <div class="tgl-card last">
+                <div class="lingkaran"></div>
+                <h4 class="tanggal">22 Mei 2020</h4>
+                <!-- <div class="garis-putus-putus"></div> -->
+              </div>
+
+              <!-- card -->
+              <div class="card-content">
+                <div class="image-card">
+                  <img src="assets/img/hero1.png" alt="image card" class="img-card">
+                </div>
+                <div class="content">
+                  <div class="category">
+                    <p class="category-item">#Bencana Alam</p>
+                    <div class="tanggapan">
+                      <p class="tanggapan-item">Ditanggapi</p>
+                    </div>
+                  </div>
+                  <h3 class="title-card">Jalan Rusak</h3>
+                  <p class="deskripsi">
+                    Jalan menuju Kampung Pinang rusak parah akibat kendaraan truk bermuatan berat tadi malam
+                  </p>
+                  <p class="waktu">14:27 WIB</p>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- peta section -->
+    <section id="peta">
+        <div class="peta">
+          <div class="isi">
+            <div class="header-peta">
+              <h2 class="title-peta">Peta</h2>
+              <div class="border-bottom"></div>
+            </div>
+            <p class="deskripsi">
+              Peta Digital memuat segala informasi berbasis lokasi. Peta DIgital dapat digunakan sebagai alat bantu dalam perumusan kebijakan serta mendukung pelaksanaan kegiatan yang berkaitan dengan tata ruang desa
+            </p>
+            <div class="list-icons">
+              <div class="item-icon">
+                <div class="icon-img">
+                  <img src="assets/img/icon-1.png" alt="icon-1" class="icon-peta">
+                </div>
+                <h6 class="text-icon">Batas Wilayah</h6>
+              </div>
+              <div class="item-icon">
+                <div class="icon-img">
+                  <img src="assets/img/icon-2.png" alt="icon-2" class="icon-peta">
+                </div>
+                <h6 class="text-icon">Beta Tematik</h6>
+              </div>
+              <div class="item-icon">
+                <div class="icon-img">
+                  <img src="assets/img/icon-3.png" alt="icon-3" class="icon-peta">
+                </div>
+                <h6 class="text-icon">Infografis</h6>
+              </div>
+              <div class="btn btn-peta">
+                <a href="#" class="link-btn">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="img-peta">
+            <img src="assets/img/google map.jpg" alt="peta" class="peta-img">
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- footer -->
+      <section id="footer">
+        <div class="footer">
+          <div class="top-footer">
+            <div class="logo-footer">
+              <img src="assets/img/desa_pintar_putih.png" alt="" class="logo">
+            </div>
+            <div class="list-footers">
+              <ul class="list-items">
+                <li class="item-link">
+                  <a href="#" class="link">Beranda</a>
+                </li>
+                <li class="item-link">
+                  <a href="#" class="link">Profil</a>
+                </li>
+                <li class="item-link">
+                  <a href="#" class="link">Berita</a>
+                </li>
+                <li class="item-link data-desa">
+                  <a href="#" class="link">Data Desa</a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                  </svg>
+                </li>
+                <li class="item-link">
+                  <a href="#" class="link">Peta</a>
+                </li>
+                <li class="item-link">
+                  <a href="#" class="link">Toko Desa</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="line">
+          </div>
+          <div class="sosmed-icon">
+            <div class="icon">
+              <img src="assets/img/instagram-icon.png" alt="instagram" class="instagram-icon">
+            </div>
+            <div class="icon">
+              <img src="assets/img/facebook-icon.png" alt="facebook" class="facebook-icon">
+            </div>
+            <div class="icon">
+              <img src="assets/img/twitter-icon.png" alt="twitter" class="twitter-icon">
+            </div>
+            <div class="icon">
+              <img src="assets/img/youtube-icon.png" alt="youtube" class="youtube-icon">
+            </div>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
