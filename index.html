@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desa Pintar</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/hero.css" />
+    <link rel="stylesheet" href="assets/css/box.css" />
+    <link rel="stylesheet" href="assets/css/berita.css" />
+    <link rel="stylesheet" href="assets/css/informasi.css" />
+    <link rel="stylesheet" href="assets/css/potensi.css" />
+    <link rel="stylesheet" href="assets/css/layanan.css" />
+    <link rel="stylesheet" href="assets/css/lapor.css" />
+    <link rel="stylesheet" href="assets/css/peta.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Poppins"
@@ -25,7 +35,7 @@
           <li class="list"><a href="#berita" class="link">Berita</a></li>
           <li class="list data-desa">
             <a href="#datadesa" class="link">Data Desa</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down link" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
             </svg>
           </li>
@@ -41,10 +51,10 @@
     <section id="hero">
         <div class="hero-section">
             <div class="text-hero">
-                <div class="hero-title">
+                <header class="hero-title">
                     <h1 class="title-hero1">Desa</h1>
                     <h1 class="title-hero2">Prawatan</h1>
-                </div>
+                </header>
                 <div class="hero-subtitle">
                     <p class="subtitle-hero">
                     Desa Pintar merupakan inovasi desa di bidang teknologi dan
@@ -69,7 +79,8 @@
 
 
     <!-- content -->
-    <div class="container">
+    <main class="container">
+      <!-- apb section -->
       <section id="box">
         <div class="box">
           <h2 class="title-box">APB Desa</h2>
@@ -84,18 +95,19 @@
           </div>
         </div>
       </section>
-      <!-- end section box -->
+      <!-- end section apb -->
 
 
+      <!-- section berita -->
       <section id="berita">
         <div class="berita">
-          <div class="header-berita">
+          <header class="header-berita">
             <h2 class="title-berita">Berita</h2>
             <div class="border-bottom"></div>
             <p class="subtitle-berita">
               Temukan berita menarik tentang Desa Toapaya Utara disini
             </p>
-          </div>
+          </header>
           <div class="cta">
             <a href="#" class="cta-berita">Lihat Semua</a>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
@@ -183,20 +195,24 @@
       <!-- section informasi -->
       <section id="informasi">
         <div class="informasi">
-          <div class="header-informasi">
+          <!-- header -->
+          <header class="header-informasi">
             <h2 class="title-informasi">informasi</h2>
             <div class="border-bottom"></div>
             <p class="subtitle-informasi">
               Temukan informasi menarik tentang Desa Toapaya Utara disini
             </p>
-          </div>
+          </header>
+          <!-- cta -->
           <div class="cta">
             <a href="#" class="cta-informasi">Lihat Semua</a>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
             </svg>
           </div>
+          <!-- card -->
           <div class="card-informasi">
+            <!-- card 1 -->
             <div class="card">
               <div class="tanggal-card">
                 <h2 class="tgl-card-informasi">04</h2>
@@ -211,8 +227,11 @@
                   Lorem ipsum
                 </p>
               </div>
+              <div class="btn-card">
                 <a href="#" class="link-informasi">Lihat Detail</a>
+              </div>
             </div>
+            <!-- card 2 -->
             <div class="card">
               <div class="tanggal-card">
                 <h2 class="tgl-card-informasi">04-05</h2>
@@ -227,8 +246,11 @@
                   Lorem ipsum dolor sit amet consectetur. Fougiat justo sed magna malesuada quam. Integer vitae lectus at commodo viverra arcu at, Lectus non euismod convali s lacus variu...
                 </p>
               </div>
+              <div class="btn-card">
                 <a href="#" class="link-informasi">Lihat Detail</a>
+              </div>
             </div>
+            <!-- card 3 -->
             <div class="card">
               <div class="tanggal-card-3">
                 <h2 class="tgl-card-informasi tgl-3">04</h2>
@@ -245,11 +267,14 @@
                   Lorem ipsum dolor sit amet consectetur. Fougiat justo sed magna malesuada quam. Inte...
                 </p>
               </div>
+              <div class="btn-card">
                 <a href="#" class="link-informasi">Lihat Detail</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- end section informasi -->
 
 
       <!-- section potensi -->
@@ -261,7 +286,7 @@
           </div>
           <div class="list-items">
             <ul class="list-links">
-              <li class="item active">
+              <li class="item">
                 <a href="#" class="link-potensi">Semua</a>
               </li>
               <li class="item bck-color">
@@ -393,7 +418,7 @@
            </div>
         </div>
       </section>
-      <!-- end section -->
+      <!-- end section potensi -->
 
 
 
@@ -432,19 +457,23 @@
           </div>
         </div>
       </section>
-      <!-- end section -->
+      <!-- end section  layanan-->
 
 
 
       <!-- section lapor online -->
       <section id="lapor-online">
         <div class="lapor">
-          <div class="header-lapor">
+          <!-- header -->
+          <header class="header-lapor">
             <h2 class="title-lapor">Lapor Online</h2>
             <div class="border-bottom"></div>
-          </div>
+          </header>
+          <!-- buttons -->
           <div class="buttons">
+            <div class="btn btn-laporkan">
               <a href="#" class="link-laporkan">Laporkan</a>
+            </div>
             <div class="cta">
               <a href="#" class="cta-lapor">Lihat Semua</a>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
@@ -454,6 +483,7 @@
           </div>
             <!-- inti laporkan -->
            <div class="card-list">
+            <!-- card 1 -->
             <div class="card">
               <!-- tanggal -->
               <div class="tgl-card">
@@ -482,6 +512,8 @@
                 </div>
               </div>
             </div>
+
+            <!-- card 2 -->
             <div class="card">
               <!-- tanggal -->
               <div class="tgl-card">
@@ -510,6 +542,8 @@
                 </div>
               </div>
             </div>
+
+            <!-- card 3 -->
             <div class="card">
               <!-- tanggal -->
               <div class="tgl-card last">
@@ -541,19 +575,23 @@
            </div>
         </div>
       </section>
-    </div>
+    </main>
 
     <!-- peta section -->
     <section id="peta">
         <div class="peta">
+          <!-- content sebelah kiri -->
           <div class="isi">
-            <div class="header-peta">
+            <!-- header -->
+            <header class="header-peta">
               <h2 class="title-peta">Peta</h2>
               <div class="border-bottom"></div>
-            </div>
+            </header>
+            <!-- deskripsi -->
             <p class="deskripsi">
               Peta Digital memuat segala informasi berbasis lokasi. Peta DIgital dapat digunakan sebagai alat bantu dalam perumusan kebijakan serta mendukung pelaksanaan kegiatan yang berkaitan dengan tata ruang desa
             </p>
+            <!-- list -->
             <div class="list-icons">
               <div class="item-icon">
                 <div class="icon-img">
@@ -573,14 +611,18 @@
                 </div>
                 <h6 class="text-icon">Infografis</h6>
               </div>
+              <div class="btn btn-peta">
                 <a href="#" class="link-btn">Selengkapnya</a>
+              </div>
             </div>
           </div>
+          <!-- gambar sebelah kanan (peta) -->
           <div class="img-peta">
             <img src="assets/img/google map.jpg" alt="peta" class="peta-img">
           </div>
         </div>
       </section>
+    <!-- end section peta -->
 
 
 
@@ -588,9 +630,11 @@
       <section id="footer">
         <div class="footer">
           <div class="top-footer">
+            <!-- logo desapintar -->
             <div class="logo-footer">
               <img src="assets/img/desa_pintar_putih.png" alt="" class="logo">
             </div>
+            <!-- list links -->
             <div class="list-footers">
               <ul class="list-items">
                 <li class="item-link">
@@ -616,9 +660,11 @@
                 </li>
               </ul>
             </div>
+            <!-- end list links -->
           </div>
           <div class="line">
           </div>
+          <!-- sosmed icon -->
           <div class="sosmed-icon">
             <div class="icon">
               <img src="assets/img/instagram-icon.png" alt="instagram" class="instagram-icon">
@@ -633,7 +679,9 @@
               <img src="assets/img/youtube-icon.png" alt="youtube" class="youtube-icon">
             </div>
           </div>
+          <!-- end sosmed icon -->
         </div>
       </section>
+      <!-- end section footer -->
   </body>
 </html>
