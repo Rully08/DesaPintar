@@ -1,0 +1,132 @@
+.informasi {
+    margin-top: 100px;
+}
+
+.header-informasi {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-informasi {
+    font-weight: 600;
+    font-size: 32px;
+    color: #1F2F59;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.subtitle-informasi {
+    font-weight: 400;
+    font-size: 16px;
+    color: #2B3B65;
+    margin: 20px 0 32px 0;
+}
+
+.cta {
+    text-align: end;
+    margin-bottom: 16px;
+}
+
+.cta-informasi {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5DC3B2;
+}
+.card-informasi .card .btn-card .link-informasi {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF7A00;
+    text-decoration: none;
+}
+.card-informasi {
+    display: block;
+    
+}
+
+.card-informasi .card {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 180px;
+    gap: 20px;
+    border-radius: 20px;
+    /* border: #2B3B65 1px solid; */
+    box-shadow: 0px 0px 10px 0 rgba(201, 242, 236, 0.695);
+    margin-bottom: 16px;
+}
+.card-informasi .card .content-card {
+    display: block;
+    width: 670px;
+    height: auto;
+    padding: 20px 0;
+}
+.tanggal-card {
+    display: block;
+    width: 220px;
+    float: left;
+    padding: 20px 0 20px 38px;
+}
+.tanggal-card-3 {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 38px;
+}
+.tgl-card-informasi {
+    font-weight: 600;
+    font-size: 50px;
+    color: #FF7C04;
+    margin: 0;
+}
+.tgl-card-informasi2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #2B3B65;
+    margin: -12px 0 0 0;
+}
+.tgl-card-informasi3 {
+    font-weight: 200;
+    font-size: 14px;
+    color: #2B3B65;
+    margin: 0;
+}
+.tgl-3 {
+    font-size: 30px;
+    width: fit-content;
+}
+.tgl-4 {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: fit-content;
+}
+.tgl-5 {
+    margin-top: -40px;
+}
+.card-informasi .card .content-card .title-card {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1F2F59;
+    max-width: 670px;
+    margin: 4px 0 0 0;
+}
+.card-informasi .card .content-card .subtitle-card {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B3B65;
+    padding: 4px 0 0 0;
+    max-width: 670px;
+}
+.card-informasi .card .btn-card {
+    margin: auto 0;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: #FF7A00 2px solid;
+}
+.card-informasi .card .btn2-card {
+    margin: 30px 0 20px 0;
+}
