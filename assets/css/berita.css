@@ -1,0 +1,126 @@
+.berita {
+    margin-top: 100px;
+}
+
+.header-berita {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-berita {
+    font-weight: 600;
+    font-size: 32px;
+    color: #1F2F59;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.border-bottom {
+    border-bottom: #FF7A00 5px solid;
+    width: 85px;
+    margin: 0 auto;
+}
+
+.subtitle-berita {
+    font-weight: 400;
+    font-size: 16px;
+    color: #2B3B65;
+    margin: 20px 0 32px 0;
+}
+
+.cta {
+    text-align: end;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.cta-berita {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5DC3B2;
+}
+
+.card-berita {
+    display: block;
+    
+}
+
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 180px;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(201, 242, 236, 0.44);
+    margin-bottom: 16px;
+    background-color: #FFFFFF;
+}
+
+.card-berita .background-hijau {
+    height: 500px;
+    top: 1400px;
+}
+
+.card-berita .background-gelombang-bawah {
+    background-image: url(../img/gelombang-bawah.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: -150px;
+    width: 100%;
+    height: 100%;
+    top: 1825px;
+    z-index: -1;
+}
+
+.image-card {
+    width: fit-content;
+    height: fit-content;
+    
+
+}
+.img-card {
+    width: 300px;
+    height: 180px;
+    border-radius: 20px 0 0 20px;
+}
+.content-card {
+    display: block;
+    height: 180px;
+
+}
+.tgl-card {
+    font-weight: 300;
+    font-size: 14px;
+    color: #FF7C04;
+    margin: 20px 0 0 0;
+}
+.title-card {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1F2F59;
+    margin: 4px 0 0 0;
+}
+.subtitle-card {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B3B65;
+    margin: 4px 0 0 0;
+    width: 780px;
+}
+.btn-card {
+    margin: 10px 0 20px 0;
+}
+.btn2-card {
+    margin: 30px 0 20px 0;
+}
+.link-berita {
+    font-weight: 500;
+    font-size: 12px;
+    color: #5DC3B2;
+    text-decoration: none;
+}
