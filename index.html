@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/nav.css" />
     <link rel="stylesheet" href="assets/css/hero.css" />
-    <link rel="stylesheet" href="assets/css/box.css" />
+    <link rel="stylesheet" href="assets/css/apb.css" />
     <link rel="stylesheet" href="assets/css/berita.css" />
     <link rel="stylesheet" href="assets/css/informasi.css" />
     <link rel="stylesheet" href="assets/css/potensi.css" />
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/lapor.css" />
     <link rel="stylesheet" href="assets/css/peta.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/responsif.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Poppins"
@@ -22,61 +23,94 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
     </style>
+    <script
+      src="https://kit.fontawesome.com/f20b836d2b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="nav">
       <header>
         <img class="logo" src="assets/img/desa_pintar.png" alt="Desa Pintar" />
       </header>
+      <!-- icon hamburger -->
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <!-- nav link -->
       <nav class="navbar">
         <ul class="nav-links">
-          <li class="list"><a href="index.html" class="link active">Beranda</a></li>
+          <li class="list">
+            <a href="index.html" class="link active">Beranda</a>
+          </li>
           <li class="list"><a href="#profil" class="link">Profil</a></li>
           <li class="list"><a href="#berita" class="link">Berita</a></li>
           <li class="list data-desa">
             <a href="#datadesa" class="link">Data Desa</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+              />
             </svg>
           </li>
           <li class="list"><a href="#peta" class="link">Peta</a></li>
           <li class="list"><a href="#tokodesa" class="link">Toko Desa</a></li>
         </ul>
-        <div class="btn btn-login">
-          <a href="login.html" class="link-login">Masuk</a>
-        </div>
       </nav>
+      <!-- btn login -->
+      <div class="btn btn-login">
+        <a href="login.html" class="link-login">Masuk</a>
+      </div>
     </div>
 
     <section id="hero">
-        <div class="hero-section">
-            <div class="text-hero">
-                <header class="hero-title">
-                    <h1 class="title-hero1">Desa</h1>
-                    <h1 class="title-hero2">Prawatan</h1>
-                </header>
-                <div class="hero-subtitle">
-                    <p class="subtitle-hero">
-                    Desa Pintar merupakan inovasi desa di bidang teknologi dan
-                    informasi, yang diawali dengan pembangunan basis data geospasial.
-                    </p>
-                </div>
-                <div class="btn btn-hero">
-                    <a href="#" class="link-hero">
-                      Explore Desa
-                    </a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-arrow-right icon-row-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                    </svg>
-                </div>
-            </div>
-            <div class="hero-images">
-                <img src="assets/img/hero1.png" alt="hero image" class="img-hero" />
-                <img src="assets/img/hero2.png" alt="hero image" class="img-hero radius"/>
-            </div>
+      <div class="hero-section">
+        <div class="text-hero">
+          <header class="hero-title">
+            <h1 class="title-hero1">Desa</h1>
+            <h1 class="title-hero2">Prawatan</h1>
+          </header>
+          <div class="hero-subtitle">
+            <p class="subtitle-hero">
+              Desa Pintar merupakan inovasi desa di bidang teknologi dan
+              informasi, yang diawali dengan pembangunan basis data geospasial.
+            </p>
+          </div>
+          <div class="btn btn-hero">
+            <a href="#" class="link-hero"> Explore Desa </a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="white"
+              class="bi bi-arrow-right icon-row-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
+            </svg>
+          </div>
         </div>
+        <div class="hero-images">
+          <img src="assets/img/hero1.png" alt="hero image" class="img-hero" />
+          <img
+            src="assets/img/hero1.png"
+            alt="hero image"
+            class="img-hero"
+          />
+        </div>
+      </div>
     </section>
-
 
     <!-- content -->
     <main class="container">
@@ -90,13 +124,10 @@
             serta sebagai sosialisasi dan wadah penerapan program 'Padat Karya'.
             Berikut kami sajikan grafik pendapatan dan belanja desa.
           </p>
-          <div class="btn btn-box">
             <a href="#" class="link-box">Tampilkan</a>
-          </div>
         </div>
       </section>
       <!-- end section apb -->
-
 
       <!-- section berita -->
       <section id="berita">
@@ -110,8 +141,18 @@
           </header>
           <div class="cta">
             <a href="#" class="cta-berita">Lihat Semua</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="#5DC3B2"
+              class="bi bi-arrow-right icon-row-right-berita"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
             </svg>
           </div>
           <div class="card-berita">
@@ -159,7 +200,7 @@
                   Jalan menuju Kampung Pinang rusak akibat kendaraan berat tadi
                   malam
                 </p>
-                <div class="btn2-card">
+                <div class="btn-card">
                   <a href="#" class="link-berita">Baca Selengkapnya ></a>
                 </div>
               </div>
@@ -181,7 +222,7 @@
                   Jalan menuju Kampung Pinang rusak akibat kendaraan berat tadi
                   malam
                 </p>
-                <div class="btn2-card">
+                <div class="btn-card">
                   <a href="#" class="link-berita">Baca Selengkapnya ></a>
                 </div>
               </div>
@@ -190,7 +231,6 @@
         </div>
       </section>
       <!-- end section berita -->
-
 
       <!-- section informasi -->
       <section id="informasi">
@@ -206,8 +246,18 @@
           <!-- cta -->
           <div class="cta">
             <a href="#" class="cta-informasi">Lihat Semua</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="#5DC3B2"
+              class="bi bi-arrow-right icon-row-right-berita"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
             </svg>
           </div>
           <!-- card -->
@@ -217,15 +267,12 @@
               <div class="tanggal-card">
                 <h2 class="tgl-card-informasi">04</h2>
                 <h4 class="tgl-card-informasi2">Februari 2023</h4>
-                <p class="tgl-card-informasi3">08:00 - 12:00</p>  
+                <p class="tgl-card-informasi3">08:00 - 12:00</p>
               </div>
+              <hr class="horizontal-line">
               <div class="content-card">
-                <h3 class="title-card">
-                  Penyuluhan pertanian
-                </h3>
-                <p class="subtitle-card">
-                  Lorem ipsum
-                </p>
+                <h3 class="title-card">Penyuluhan pertanian</h3>
+                <p class="subtitle-card">Lorem ipsum</p>
               </div>
               <a href="#" class="link-informasi">Lihat Detail</a>
             </div>
@@ -234,14 +281,39 @@
               <div class="tanggal-card">
                 <h2 class="tgl-card-informasi">04-05</h2>
                 <h4 class="tgl-card-informasi2">Februari 2023</h4>
-                <p class="tgl-card-informasi3">08:00 - 12:00</p>  
+                <p class="tgl-card-informasi3">08:00 - 12:00</p>
               </div>
+              <hr class="horizontal-line">
               <div class="content-card">
-                <h3 class="title-card">
-                  Penyuluhan Budidaya Ternak ikan
-                </h3>
+                <h3 class="title-card">Penyuluhan Budidaya Ternak ikan</h3>
                 <p class="subtitle-card">
-                  Lorem ipsum dolor sit amet consectetur. Fougiat justo sed magna malesuada quam. Integer vitae lectus at commodo viverra arcu at, Lectus non euismod convali s lacus variu...
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  cumque aspernatur eligendi accusamus nulla, autem nam, aliquam
+                  odit, quae necessitatibus voluptates sapiente nesciunt ratione
+                  dolorum dolore voluptatum. Possimus dolore repellat
+                  dignissimos aliquam natus aspernatur, eos consequatur veniam
+                  illum nobis accusantium cupiditate accusamus inventore id
+                  quaerat cumque iure quis. Repellat dicta deleniti molestiae
+                  optio excepturi libero voluptas possimus dolor quisquam
+                  recusandae. Saepe adipisci reprehenderit impedit, sint ipsam
+                  reiciendis optio cumque repudiandae nam in, eum quam dolore
+                  qui soluta error iste, magni ab? Fugiat neque facilis eius
+                  odio unde doloremque voluptatem non, temporibus rerum
+                  accusantium ipsa quam laboriosam, quidem tenetur. Maxime dicta
+                  blanditiis, exercitationem consectetur vero eveniet
+                  accusantium animi facilis reiciendis? Neque officiis at est
+                  mollitia molestias similique possimus aliquam provident iste
+                  eum, ducimus, expedita quia. Obcaecati nobis temporibus rerum
+                  exercitationem maiores, dolorum corrupti pariatur laudantium
+                  quisquam amet a doloribus. Nobis excepturi iste obcaecati ut
+                  dolor? Culpa eum sit eaque veniam tenetur illo saepe. Animi
+                  tempore delectus enim, maiores eligendi facilis inventore
+                  pariatur dicta? Placeat at quibusdam, dolorum, dolor
+                  cupiditate blanditiis minima atque qui nobis neque aperiam?
+                  Alias amet nulla, voluptatem incidunt facere reiciendis! Amet
+                  iste saepe quaerat ipsam culpa? Enim consequatur magnam
+                  suscipit laudantium neque maiores ipsam expedita dolorem quam
+                  fugiat?
                 </p>
               </div>
               <a href="#" class="link-informasi">Lihat Detail</a>
@@ -249,18 +321,25 @@
             <!-- card 3 -->
             <div class="card">
               <div class="tanggal-card-3">
-                <h2 class="tgl-card-informasi tgl-3">04</h2>
-                <h4 class="tgl-card-informasi2 tgl-4">Februari 2023</h4>
-                <h2 class="tgl-card-informasi tgl-3 tgl-5">05</h2>
-                <h4 class="tgl-card-informasi2 tgl-4 tgl-5">Desember 2024</h4>
-                <p class="tgl-card-informasi3 tgl-5">08:00 - 12:00</p>  
+                <div class="tanggal-1">
+                  <h2>04</h2>
+                  <h4>Februari 2023 -</h4>
+                </div>
+                <div class="tanggal-2">
+                  <h2>05</h2>
+                  <h4>September 2024</h4>
+                </div>
+                <p class="tgl-card-informasi3">08:00 - 12:00</p>
               </div>
+              <hr class="horizontal-line">
               <div class="content-card">
                 <h3 class="title-card">
-                  Sosialisasi Hasil Perubahan RKPD periode 2024 - 2026 Desa Prawatan Jogonalan Klaten
+                  Sosialisasi Hasil Perubahan RKPD periode 2024 - 2026 Desa
+                  Prawatan Jogonalan Klaten
                 </h3>
                 <p class="subtitle-card">
-                  Lorem ipsum dolor sit amet consectetur. Fougiat justo sed magna malesuada quam. Inte...
+                  Lorem ipsum dolor sit amet consectetur. Fougiat justo sed
+                  magna malesuada quam. Inte...
                 </p>
               </div>
               <a href="#" class="link-informasi">Lihat Detail</a>
@@ -269,7 +348,6 @@
         </div>
       </section>
       <!-- end section informasi -->
-
 
       <!-- section potensi -->
       <section id="potensi">
@@ -312,16 +390,78 @@
           </div>
           <div class="cta-potensi">
             <a href="#" class="cta-berita">Lihat Semua</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="#5DC3B2"
+              class="bi bi-arrow-right icon-row-right-berita"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
             </svg>
           </div>
           <div class="background-hijau"></div>
           <!-- card -->
-           <div class="card-potensi">
+          <div class="card-potensi">
             <div class="card-potensi-item">
               <div class="card-image">
-                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="images card"
+                  class="img-card-potensi"
+                />
+              </div>
+              <div class="card-content">
+                <div class="category">
+                  <p class="category-item">Wisata</p>
+                  <p class="harga-item">Rp 15.000</p>
+                </div>
+                <h3 class="card-title">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Quibusdam impedit nihil explicabo consequatur beatae porro,
+                  quidem sapiente mollitia deserunt perspiciatis?
+                </h3>
+                <p class="deskripsi">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum eveniet itaque sit beatae ab? Quidem quisquam
+                  dignissimos quas veritatis nam? Dignissimos fuga culpa
+                  voluptatem explicabo unde debitis sit eveniet esse vitae
+                  consequuntur. Atque, voluptate nisi nesciunt error minima vel,
+                  maiores id cum facilis, quis enim alias laboriosam! Deserunt
+                  repellendus totam sint, vel ipsum maxime magnam nisi commodi
+                  doloremque excepturi sunt numquam delectus quam. Aliquam est
+                  quaerat nostrum, incidunt adipisci omnis at quis blanditiis
+                  inventore repellat maiores, iure nisi doloremque quisquam
+                  autem esse nihil minus sed repellendus nesciunt id officia
+                  ducimus! Quod soluta, placeat pariatur animi numquam dicta,
+                  officiis assumenda nobis ea atque, quidem corporis. Fugiat eum
+                  odio at corrupti ea recusandae magni possimus, suscipit
+                  numquam, aliquid, repudiandae accusamus accusantium!
+                  Voluptatem dolor dolores reprehenderit et! Aut vel quam non
+                  laudantium suscipit quos ullam eius et nisi, provident
+                  praesentium id, iste, hic nulla fugit ea maxime obcaecati
+                  deleniti unde nam itaque voluptates cumque! Ea esse nostrum
+                  itaque ab consequuntur ducimus perspiciatis aliquam cum
+                  dignissimos laudantium expedita obcaecati, rerum accusamus
+                  quibusdam magnam reiciendis repellat eius delectus eveniet
+                  reprehenderit ipsa officia exercitationem. Assumenda, dolorem
+                  repudiandae. Aliquam, eius totam odio laudantium consectetur
+                  ipsam quia repellendus, deserunt doloremque itaque nihil vel
+                  nobis dolorum dolores quaerat possimus.
+                </p>
+              </div>
+            </div>
+            <div class="card-potensi-item">
+              <div class="card-image">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="images card"
+                  class="img-card-potensi"
+                />
               </div>
               <div class="card-content">
                 <div class="category">
@@ -330,13 +470,18 @@
                 </div>
                 <h3 class="card-title">Counter Es WDD</h3>
                 <p class="deskripsi">
-                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi
+                  kartu keluarga dan mematuhi proses
                 </p>
               </div>
             </div>
             <div class="card-potensi-item">
               <div class="card-image">
-                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="images card"
+                  class="img-card-potensi"
+                />
               </div>
               <div class="card-content">
                 <div class="category">
@@ -345,13 +490,18 @@
                 </div>
                 <h3 class="card-title">Counter Es WDD</h3>
                 <p class="deskripsi">
-                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi
+                  kartu keluarga dan mematuhi proses
                 </p>
               </div>
             </div>
             <div class="card-potensi-item">
               <div class="card-image">
-                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="images card"
+                  class="img-card-potensi"
+                />
               </div>
               <div class="card-content">
                 <div class="category">
@@ -360,13 +510,18 @@
                 </div>
                 <h3 class="card-title">Counter Es WDD</h3>
                 <p class="deskripsi">
-                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi
+                  kartu keluarga dan mematuhi proses
                 </p>
               </div>
             </div>
             <div class="card-potensi-item">
               <div class="card-image">
-                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="images card"
+                  class="img-card-potensi"
+                />
               </div>
               <div class="card-content">
                 <div class="category">
@@ -375,13 +530,18 @@
                 </div>
                 <h3 class="card-title">Counter Es WDD</h3>
                 <p class="deskripsi">
-                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi
+                  kartu keluarga dan mematuhi proses
                 </p>
               </div>
             </div>
             <div class="card-potensi-item">
               <div class="card-image">
-                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
+                <img
+                  src="assets/img/hero1.png"
+                  alt="images card"
+                  class="img-card-potensi"
+                />
               </div>
               <div class="card-content">
                 <div class="category">
@@ -390,31 +550,15 @@
                 </div>
                 <h3 class="card-title">Counter Es WDD</h3>
                 <p class="deskripsi">
-                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
+                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi
+                  kartu keluarga dan mematuhi proses
                 </p>
               </div>
             </div>
-            <div class="card-potensi-item">
-              <div class="card-image">
-                <img src="assets/img/hero1.png" alt="images card" class="img-card-potensi">
-              </div>
-              <div class="card-content">
-                <div class="category">
-                  <p class="category-item">Wisata</p>
-                  <p class="harga-item">Rp 15.000</p>
-                </div>
-                <h3 class="card-title">Counter Es WDD</h3>
-                <p class="deskripsi">
-                  Akan diadakan penyuluhan pertanian, harap membawa fotokopi kartu keluarga dan mematuhi proses
-                </p>
-              </div>
-            </div>
-           </div>
+          </div>
         </div>
       </section>
       <!-- end section potensi -->
-
-
 
       <!-- start section layanan -->
       <section id="layanan">
@@ -427,33 +571,31 @@
         <div class="layanan-card">
           <div class="card">
             <div class="icon-card">
-              <img src="assets/img/icon-1.png" alt="icon card">
+              <img src="assets/img/icon-1.png" alt="icon card" />
             </div>
             <h3 class="title-card">Surat Pengantar</h3>
           </div>
           <div class="card">
             <div class="icon-card">
-              <img src="assets/img/icon-2.png" alt="icon card">
+              <img src="assets/img/icon-2.png" alt="icon card" />
             </div>
             <h3 class="title-card">Surat Keterangan</h3>
           </div>
           <div class="card">
             <div class="icon-card">
-              <img src="assets/img/icon-3.png" alt="icon card">
+              <img src="assets/img/icon-3.png" alt="icon card" />
             </div>
             <h3 class="title-card">Surat Rekomendasi</h3>
           </div>
           <div class="card">
             <div class="icon-card">
-              <img src="assets/img/icon-4.png" alt="icon card">
+              <img src="assets/img/icon-4.png" alt="icon card" />
             </div>
             <h3 class="title-card">Surat Pernyataan</h3>
           </div>
         </div>
       </section>
       <!-- end section  layanan-->
-
-
 
       <!-- section lapor online -->
       <section id="lapor-online">
@@ -470,13 +612,23 @@
             </div>
             <div class="cta">
               <a href="#" class="cta-lapor">Lihat Semua</a>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#5DC3B2" class="bi bi-arrow-right icon-row-right-berita" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="#5DC3B2"
+                class="bi bi-arrow-right icon-row-right-berita"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
               </svg>
             </div>
           </div>
-            <!-- inti laporkan -->
-           <div class="card-list">
+          <!-- inti laporkan -->
+          <div class="card-list">
             <!-- card 1 -->
             <div class="card">
               <!-- tanggal -->
@@ -489,7 +641,11 @@
               <!-- card -->
               <div class="card-content">
                 <div class="image-card">
-                  <img src="assets/img/hero1.png" alt="image card" class="img-card">
+                  <img
+                    src="assets/img/hero1.png"
+                    alt="image card"
+                    class="img-card"
+                  />
                 </div>
                 <div class="content">
                   <div class="category">
@@ -498,9 +654,38 @@
                       <p class="tanggapan-item">Ditanggapi</p>
                     </div>
                   </div>
-                  <h3 class="title-card">Jalan Rusak</h3>
+                  <h3 class="title-card">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque ex quisquam aperiam alias rerum odio porro aspernatur
+                    enim corporis assumenda?
+                  </h3>
                   <p class="deskripsi">
-                    Jalan menuju Kampung Pinang rusak parah akibat kendaraan truk bermuatan berat tadi malam
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Minus nesciunt, unde hic perferendis vitae, quibusdam fugit
+                    enim saepe expedita rem corporis sunt distinctio nihil
+                    recusandae nisi! Nobis recusandae omnis vero enim
+                    laboriosam, dolorem ea. Facere dolorem, molestiae soluta
+                    odio rem excepturi obcaecati, labore dolorum placeat quas
+                    at. Aliquam quam corporis nesciunt in animi cumque veritatis
+                    eius eos porro ab reprehenderit dolorem dignissimos error
+                    possimus, pariatur corrupti. Doloribus tenetur quisquam
+                    assumenda distinctio, voluptate praesentium fuga nulla,
+                    quidem labore quia hic iure facilis commodi consectetur nam
+                    dolorem sed rem asperiores deserunt, expedita quis sint
+                    quibusdam qui tempore. Magnam odit repellendus, maxime
+                    consectetur doloremque voluptas veniam provident ducimus quo
+                    non, perferendis quod possimus laboriosam ad beatae enim
+                    mollitia optio unde ipsa magni, qui iste aliquid atque?
+                    Officia quisquam vel deserunt amet quae corrupti, facilis
+                    consequatur modi eaque pariatur repellendus. Culpa atque
+                    odit quam debitis cumque enim laboriosam amet totam quod
+                    aspernatur, ipsam, dolorem quidem tenetur sed minima libero
+                    quia esse molestias in quasi hic officia. Laborum provident
+                    esse eos cum officiis delectus voluptatibus tempore facilis
+                    explicabo vero saepe sit laboriosam omnis porro nostrum et,
+                    quasi veritatis! Deserunt omnis harum nobis laborum
+                    inventore minima sed esse quaerat consectetur velit.
+                    Perspiciatis saepe aperiam deserunt aliquid?
                   </p>
                   <p class="waktu">14:27 WIB</p>
                 </div>
@@ -519,7 +704,11 @@
               <!-- card -->
               <div class="card-content">
                 <div class="image-card">
-                  <img src="assets/img/hero1.png" alt="image card" class="img-card">
+                  <img
+                    src="assets/img/hero1.png"
+                    alt="image card"
+                    class="img-card"
+                  />
                 </div>
                 <div class="content">
                   <div class="category">
@@ -530,7 +719,8 @@
                   </div>
                   <h3 class="title-card">Jalan Rusak</h3>
                   <p class="deskripsi">
-                    Jalan menuju Kampung Pinang rusak parah akibat kendaraan truk bermuatan berat tadi malam
+                    Jalan menuju Kampung Pinang rusak parah akibat kendaraan
+                    truk bermuatan berat tadi malam
                   </p>
                   <p class="waktu">14:27 WIB</p>
                 </div>
@@ -549,7 +739,11 @@
               <!-- card -->
               <div class="card-content">
                 <div class="image-card">
-                  <img src="assets/img/hero1.png" alt="image card" class="img-card">
+                  <img
+                    src="assets/img/hero1.png"
+                    alt="image card"
+                    class="img-card"
+                  />
                 </div>
                 <div class="content">
                   <div class="category">
@@ -560,120 +754,158 @@
                   </div>
                   <h3 class="title-card">Jalan Rusak</h3>
                   <p class="deskripsi">
-                    Jalan menuju Kampung Pinang rusak parah akibat kendaraan truk bermuatan berat tadi malam
+                    Jalan menuju Kampung Pinang rusak parah akibat kendaraan
+                    truk bermuatan berat tadi malam
                   </p>
                   <p class="waktu">14:27 WIB</p>
                 </div>
               </div>
             </div>
-           </div>
+          </div>
         </div>
       </section>
     </main>
 
     <!-- peta section -->
     <section id="peta">
-        <div class="peta">
-          <!-- content sebelah kiri -->
-          <div class="isi">
-            <!-- header -->
-            <header class="header-peta">
-              <h2 class="title-peta">Peta</h2>
-              <div class="border-bottom"></div>
-            </header>
-            <!-- deskripsi -->
-            <p class="deskripsi">
-              Peta Digital memuat segala informasi berbasis lokasi. Peta DIgital dapat digunakan sebagai alat bantu dalam perumusan kebijakan serta mendukung pelaksanaan kegiatan yang berkaitan dengan tata ruang desa
-            </p>
-            <!-- list -->
-            <div class="list-icons">
-              <div class="item-icon">
-                <div class="icon-img">
-                  <img src="assets/img/icon-1.png" alt="icon-1" class="icon-peta">
-                </div>
-                <h6 class="text-icon">Batas Wilayah</h6>
+      <div class="peta">
+        <!-- content sebelah kiri -->
+        <div class="isi">
+          <!-- header -->
+          <header class="header-peta">
+            <h2 class="title-peta">Peta</h2>
+            <div class="border-bottom"></div>
+          </header>
+          <!-- deskripsi -->
+          <p class="deskripsi">
+            Peta Digital memuat segala informasi berbasis lokasi. Peta DIgital
+            dapat digunakan sebagai alat bantu dalam perumusan kebijakan serta
+            mendukung pelaksanaan kegiatan yang berkaitan dengan tata ruang desa
+          </p>
+          <!-- list -->
+          <div class="list-icons">
+            <div class="item-icon">
+              <div class="icon-img">
+                <img
+                  src="assets/img/icon-1.png"
+                  alt="icon-1"
+                  class="icon-peta"
+                />
               </div>
-              <div class="item-icon">
-                <div class="icon-img">
-                  <img src="assets/img/icon-2.png" alt="icon-2" class="icon-peta">
-                </div>
-                <h6 class="text-icon">Beta Tematik</h6>
+              <h6 class="text-icon">Batas Wilayah</h6>
+            </div>
+            <div class="item-icon">
+              <div class="icon-img">
+                <img
+                  src="assets/img/icon-2.png"
+                  alt="icon-2"
+                  class="icon-peta"
+                />
               </div>
-              <div class="item-icon">
-                <div class="icon-img">
-                  <img src="assets/img/icon-3.png" alt="icon-3" class="icon-peta">
-                </div>
-                <h6 class="text-icon">Infografis</h6>
+              <h6 class="text-icon">Beta Tematik</h6>
+            </div>
+            <div class="item-icon">
+              <div class="icon-img">
+                <img
+                  src="assets/img/icon-3.png"
+                  alt="icon-3"
+                  class="icon-peta"
+                />
               </div>
-                <a href="#" class="link-btn">Selengkapnya</a>
+              <h6 class="text-icon">Infografis</h6>
             </div>
           </div>
-          <!-- gambar sebelah kanan (peta) -->
-          <div class="img-peta">
-            <img src="assets/img/google map.jpg" alt="peta" class="peta-img">
-          </div>
+          <a href="#" class="link-btn">Selengkapnya</a>
         </div>
-      </section>
+        <!-- gambar sebelah kanan (peta) -->
+        <div class="img-peta">
+          <img src="assets/img/google map.jpg" alt="peta" class="peta-img" />
+        </div>
+      </div>
+    </section>
     <!-- end section peta -->
 
-
-
-      <!-- footer -->
-      <section id="footer">
-        <div class="footer">
-          <div class="top-footer">
-            <!-- logo desapintar -->
-            <div class="logo-footer">
-              <img src="assets/img/desa_pintar_putih.png" alt="" class="logo">
-            </div>
-            <!-- list links -->
-            <div class="list-footers">
-              <ul class="list-items">
-                <li class="item-link">
-                  <a href="#" class="link">Beranda</a>
-                </li>
-                <li class="item-link">
-                  <a href="#" class="link">Profil</a>
-                </li>
-                <li class="item-link">
-                  <a href="#" class="link">Berita</a>
-                </li>
-                <li class="item-link data-desa">
-                  <a href="#" class="link">Data Desa</a>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-                  </svg>
-                </li>
-                <li class="item-link">
-                  <a href="#" class="link">Peta</a>
-                </li>
-                <li class="item-link">
-                  <a href="#" class="link">Toko Desa</a>
-                </li>
-              </ul>
-            </div>
-            <!-- end list links -->
+    <!-- footer -->
+    <section id="footer">
+      <div class="footer">
+        <div class="top-footer">
+          <!-- logo desapintar -->
+          <div class="logo-footer">
+            <img src="assets/img/desa_pintar_putih.png" alt="" class="logo" />
           </div>
-          <div class="line">
+          <!-- list links -->
+          <div class="list-footers">
+            <ul class="list-items">
+              <li class="item-link">
+                <a href="#" class="link">Beranda</a>
+              </li>
+              <li class="item-link">
+                <a href="#" class="link">Profil</a>
+              </li>
+              <li class="item-link">
+                <a href="#" class="link">Berita</a>
+              </li>
+              <li class="item-link data-desa">
+                <a href="#" class="link">Data Desa</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  fill="white"
+                  class="bi bi-chevron-down"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </li>
+              <li class="item-link">
+                <a href="#" class="link">Peta</a>
+              </li>
+              <li class="item-link">
+                <a href="#" class="link">Toko Desa</a>
+              </li>
+            </ul>
           </div>
-          <!-- sosmed icon -->
-          <div class="sosmed-icon">
-            <div class="icon">
-              <img src="assets/img/instagram-icon.png" alt="instagram" class="instagram-icon">
-            </div>
-            <div class="icon">
-              <img src="assets/img/facebook-icon.png" alt="facebook" class="facebook-icon">
-            </div>
-            <div class="icon">
-              <img src="assets/img/twitter-icon.png" alt="twitter" class="twitter-icon">
-            </div>
-            <div class="icon">
-              <img src="assets/img/youtube-icon.png" alt="youtube" class="youtube-icon">
-            </div>
-          </div>
-          <!-- end sosmed icon -->
+          <!-- end list links -->
         </div>
-      </section>
-      <!-- end section footer -->
+        <div class="line"></div>
+        <!-- sosmed icon -->
+        <div class="sosmed-icon">
+          <div class="icon">
+            <img
+              src="assets/img/instagram-icon.png"
+              alt="instagram"
+              class="instagram-icon"
+            />
+          </div>
+          <div class="icon">
+            <img
+              src="assets/img/facebook-icon.png"
+              alt="facebook"
+              class="facebook-icon"
+            />
+          </div>
+          <div class="icon">
+            <img
+              src="assets/img/twitter-icon.png"
+              alt="twitter"
+              class="twitter-icon"
+            />
+          </div>
+          <div class="icon">
+            <img
+              src="assets/img/youtube-icon.png"
+              alt="youtube"
+              class="youtube-icon"
+            />
+          </div>
+        </div>
+        <!-- end sosmed icon -->
+      </div>
+    </section>
+    <!-- end section footer -->
   </body>
 </html>

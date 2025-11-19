@@ -1,0 +1,193 @@
+/* informasi section */
+.informasi {
+    margin-top: 100px;
+}
+
+.header-informasi {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-informasi {
+    font-weight: 600;
+    font-size: 32px;
+    color: #1F2F59;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.subtitle-informasi {
+    font-weight: 400;
+    font-size: 16px;
+    color: #2B3B65;
+    margin: 20px 0 32px 0;
+}
+
+.cta {
+    text-align: end;
+    margin-bottom: 16px;
+}
+
+.cta-informasi {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5DC3B2;
+}
+
+.cta-informasi:hover {
+    color: #5dc3b286;
+}
+
+.card-informasi .card .link-informasi {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF7A00;
+    text-decoration: none;
+    width: 90px;
+    max-width: 100px;
+    min-width: fit-content;
+    text-align: center;
+    height: fit-content;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    margin: auto 0;
+    border-radius: 27px;
+    border: #FF7A00 2px solid;
+}
+
+.card-informasi .card .link-informasi:hover {
+    background-color: #FF7A00;
+    color: #FFFFFF;
+    transition: all 0.2s ease;
+}
+
+.card-informasi {
+    display: block;
+    
+}
+
+.card-informasi .card {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 180px;
+    gap: 20px;
+    border-radius: 20px;
+    /* border: #2B3B65 1px solid; */
+    box-shadow: 0px 0px 10px 0 rgba(201, 242, 236, 0.695);
+    margin-bottom: 16px;
+}
+.card-informasi .card .content-card {
+    display: block;
+    max-width: 670px;
+    /* min-width: 670px; */
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+.tanggal-card {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    float: left;
+    padding: 20px 0 20px 38px;
+}
+
+.tanggal-card-3 {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    width: 100%;
+    padding: 20px 0 20px 38px;
+    max-width: 250px;
+    width: 100%;
+}
+
+.tanggal-1 h4, .tanggal-2 h4, .tanggal-1 h2, .tanggal-2 h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.tanggal-1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: normal;
+    gap: 10px;
+}
+
+.tanggal-1 h2, .tanggal-2 h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #FF7C04;
+    margin: 0;
+}
+
+.tanggal-1 h4, .tanggal-2 h4 {
+    font-weight: 600;
+    font-size: 19px;
+    color: #2B3B65;
+    margin: 0;
+}
+
+.tanggal-2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.tgl-card-informasi {
+    font-weight: 600;
+    font-size: 50px;
+    color: #FF7C04;
+    margin: 0;
+}
+.tgl-card-informasi2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #2B3B65;
+    margin: -12px 0 0 0;
+}
+.tgl-card-informasi3 {
+    font-weight: 200;
+    font-size: 14px;
+    color: #2B3B65;
+    margin: 0;
+}
+
+.horizontal-line {
+    max-width: 520px;
+    width: 100%;
+    opacity: 50%;
+    display: none;
+}
+
+.card-informasi .card .content-card .title-card {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1F2F59;
+    max-width: 670px;
+    margin: 4px 0 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card-informasi .card .content-card .subtitle-card{
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B3B65;
+    padding: 4px 0 0 0;
+    max-width: 670px;
+    /* min-height: 80px; */
+    height: 100%;
+    max-height: 90px;
+    /* untuk membatasi jumlah baris teks yang ditampilkan */
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+/* end informasi section */

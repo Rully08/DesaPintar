@@ -1,0 +1,67 @@
+/* footer section */
+.footer {
+    margin-top: 100px;
+    background-color: #2B2C2B;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding-top: 50px;
+}
+
+.logo-footer {
+    cursor: pointer;
+}
+
+.list-items {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-flow: wrap;
+}
+.item-link {
+    list-style: none;
+}
+
+.item-link .link {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.item-link .link:hover {
+    color: #FF7A00;
+    transition: all 0.2s ease;
+}
+
+.line {
+    background-color: #3C3C3C;
+    height: 2px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sosmed-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+    margin-right: 150px;
+    margin-top: 32px;
+    padding-bottom: 50px;
+}
+
+.sosmed-icon .icon {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.sosmed-icon .icon:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+/* end section footer */

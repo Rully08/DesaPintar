@@ -1,0 +1,252 @@
+/* potensi section */
+.potensi {
+    margin-top: 100px;
+}
+.header-potensi {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title-potensi {
+    font-weight: 600;
+    font-size: 32px;
+    color: #1F2F59;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.list-items {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    flex-flow: wrap;
+}
+
+.item {
+    border-radius: 27px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.list-links .active {
+    background-color: #5DC3B2;
+    color: #FFFFFF;
+}
+
+.list-links .active .link-potensi {
+    color: #FFFFFF;
+}
+
+.list-links .item:hover {
+    cursor: pointer;
+    background-color: #5DC3B2;
+    color: #FFFFFF;
+}
+
+.list-links .bck-color {
+    background-color: #E2F3F2;
+}
+.list-links .bck-color .link-potensi:hover {
+    color: #ffffff;
+}
+.list-links .transparansi {
+    background-color: #FAFBFD;
+}
+
+.list-links .transparansi .link-potensi {
+    color: #5DC3B2;
+}
+
+.list-links .transparansi .link-potensi:hover {
+    color: #FFFFFF;
+}
+
+.link-potensi {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #5DC3B2;
+    padding: 10px 20px;
+}
+/* list 2 */
+.list-items-2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-links-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.link-potensi-2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #FF7A00;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.link-potensi-2:hover {
+    background-color: #d86900;
+}
+
+.cta-potensi {
+    text-align: end;
+    margin: -102px 31px 102px 0;
+}
+
+.cta-potensi {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5DC3B2;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.cta-potensi:hover {
+    color: #5dc3b286;
+    cursor: pointer;
+}
+
+.background-gelombang {
+    background-image: url(../img/gelombang.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: -150px;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    top: 2880px;
+}
+
+.background-hijau {
+    background-color: #EEF9FB;
+    position: absolute;
+    margin-left: -150px;
+    width: 100%;
+    height: 900px;
+    top: 3120px;
+    z-index: -1;
+}
+
+.card-potensi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1061px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card-potensi-item {
+    width: 325px;
+    height: 380px;
+    /* border: #2B3B65 1px solid; */
+    box-shadow: 0px 1px 20px 0 rgba(0, 0, 0, 0.079);
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-potensi-item:hover {
+    box-shadow: 0px 5px 25px 5px rgba(201, 242, 236, 0.695);
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+.card-image {
+    width: 290px;
+    height: 172px;
+    margin: 16px 16px 0 16px ;
+    border-radius: 25px;
+}
+
+.img-card-potensi {
+    max-width: 290px;
+    width: 100%;
+    height: 172px;
+    border-radius: 25px;
+}
+
+.card-content {
+    margin: 0 16px 0 16px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-item {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 15px;
+    background-color: #DFF3F0;
+    border-radius: 25px;
+    color: #5DC3B2;
+}
+
+.harga-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: #36456A;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1F2F59;
+    margin: -8px 0 0 0;
+    max-width: 295px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.deskripsi {
+    font-weight:300;
+    font-size: 16px;
+    width: 295px;
+    margin: -2px 0 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+/* end potensi section */
