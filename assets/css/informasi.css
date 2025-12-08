@@ -91,13 +91,13 @@
     display: block;
     width: 100%;
     max-width: 250px;
-    float: left;
     padding: 20px 0 20px 38px;
 }
 
 .tanggal-card-3 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-width: fit-content;
     width: 100%;
     padding: 20px 0 20px 38px;

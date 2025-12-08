@@ -61,6 +61,7 @@
 .card-berita .background-hijau {
     height: 500px;
     top: 1400px;
+    overflow: hidden;
 }
 
 .card-berita .background-gelombang-bawah {
@@ -72,6 +73,7 @@
     height: 100%;
     top: 1825px;
     z-index: -1;
+    overflow: hidden;
 }
 
 .card {
@@ -90,8 +92,6 @@
 .image-card {
     width: fit-content;
     height: fit-content;
-    
-
 }
 .img-card {
     width: 300px;

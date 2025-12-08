@@ -23,7 +23,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 18px;
         margin: 0;
         width: 100%;
         overflow: visible; /* pastikan elemen tidak terpotong */
@@ -38,7 +37,6 @@
 
     .hero-title { 
         text-align: center;
-        font-size: 32px;
     }
     .hero-subtitle { 
         margin: -10px auto 20px auto;
@@ -46,13 +44,14 @@
         font-weight: 400;
     }
 
-    .btn-hero { margin: 12px auto 0 auto; }
+    .btn-hero { margin: 1rem auto 1rem auto; }
 
     .hero-images {
         order: 2;
         margin-left: 0;
-        width: 400px;
-        height: 250px;
+        max-width: 25rem;
+        width: 100%;
+        height: auto;
         border-radius: 20px;
         overflow-y: hidden;
         overflow-x: auto;
@@ -61,16 +60,21 @@
         gap: 0;
     }
 
+    /* khusus untuk hero-images */
+    @media  screen and (max-width: 400px) {
+        .hero-images {
+            width: 100%;
+            max-width: 90%;
+        }
+    }
+    /* end khusus hero-images */
+
     .img-hero, .hero-images img {
         width: 100%;
-        max-width: 100%;
-        height: 250px;            
-        object-fit: contain;        
-        border-radius: 14px;      
+        height: auto;     
         object-fit: cover;
         flex: 0 0 auto;           
         display: block;
-        margin-top: 12px;
     }
     /* end hero section */
 
@@ -213,25 +217,30 @@
         row-gap: 20px;
     }
     .card-potensi-item {
-        width: 400px;
+        max-width: 25rem;
+        width: 100%;
         margin: 0 auto;
-        height: 480px;
+        height: 100%;
+        max-height: 450px;
     }
 
     .card-potensi-item .card-image {
+        max-width: 25rem;
         width: 100%;
         height: auto;
-        background-size: contain;
-        background-clip: border-box;
+        margin: 0;
+        padding: 16px 16px 0 16px;
     }
 
     .card-potensi-item .card-image .img-card-potensi {
         margin: 0 auto;
-        max-width: 370px;
+        max-width: 25rem;
         width: 100%;
         height: auto;
-        background-size: contain;
-        background-clip: border-box;
+    }
+
+    .card-potensi-item .card-content {
+        padding: 0 0 16px 0px;
     }
     /* end potensi */
 
@@ -242,27 +251,46 @@
     /* end layanan */
 
     /* lapor online */
+    .lapor .card-list .card {
+        height: 390px;
+    }
+    .card-list .card .card-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 2px 15px 0px rgba(172, 206, 201, 0.44);
+        border-radius: 1rem;
+    }
 
     .card-list .card .tgl-card {
         display: none;
     }
 
     .card-list .card .card-content {
-        gap: 10px;
+        gap: 0;
     }
 
     .card-list .card .card-content .image-card {
-        max-width: 250px;
+        max-width: 36.001rem;
         width: 100%;
+        height: 12.5rem;
     }
 
-    .card-list .card-content .image-card .img-card {
-        max-width: 240px;
+    .lapor .card-list .card-content .image-card .img-card {
+        max-width: 100%;
         width: 100%;
+        height: 100%;
+        padding: 0;
+        border-radius: 16px 16px 0 0;
     }
 
     .content .category .tanggapan .tanggapan-item {
         margin-right: 10px;
+    }
+
+    .content {
+        padding: 0 1rem;
     }
     /* end lapor online */
 
@@ -278,6 +306,10 @@
 
     .isi .deskripsi {
         display: inline;
+    }
+
+    .img-peta {
+        height: 450px;
     }
     /* end peta */
 
@@ -379,7 +411,6 @@
 
     .hero-title { 
         text-align: center;
-        font-size: 32px;
     }
     .hero-subtitle { 
         margin: -10px auto 20px auto;
@@ -392,8 +423,8 @@
     .hero-images {
         order: 2;
         margin-left: 0;
-        width: 400px;
-        height: 250px;
+        width: 600px;
+        height: 350px;
         border-radius: 20px;
         overflow-y: hidden;
         overflow-x: auto;
@@ -405,9 +436,8 @@
     .img-hero, .hero-images img {
         width: 100%;
         max-width: 100%;
-        height: 250px;            
-        object-fit: contain;        
-        border-radius: 14px;      
+        height: 100%;            
+        object-fit: contain;    
         object-fit: cover;
         flex: 0 0 auto;           
         display: block;
@@ -437,7 +467,7 @@
 
 
     /* mengubah beberapa bagian langsung */
-    .card-berita, .card-potensi {
+    .card-potensi {
         display: flex;
         gap: 16px;
     }
@@ -477,6 +507,20 @@
 
     .background-gelombang {
         margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: none;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .background-gelombang-bawah {
+        display: none;
+    }
+
+    .background-hijau {
+        display: none;
     }
     /* end berita */
 
@@ -516,6 +560,10 @@
         padding: 10px;
         padding-left: 15px;
     }
+
+    .tanggal-1 h4, .tanggal-2 h4 {
+    font-size: 16px;
+}
     /* end informasi */
 
     /* potensi */
@@ -636,6 +684,7 @@
     .item-icon {
         flex-direction: column;
         justify-content: center;
+        width: 150px;
         gap: 10px;
     }
 
@@ -650,6 +699,7 @@
     .img-peta {
         max-width: 100%;
         width: 100%;
+        height: 450px;
     }
     /* end peta */
 
@@ -697,5 +747,36 @@
 
     .card-potensi {
         justify-content: center;
+    }
+}
+
+/* @media screen and (min-width: 1000px) and (max-width: 1320px){
+
+    .hero-images {
+        min-width: 380px;
+        max-width: 538px;
+        margin-left: 50px;
+    }
+
+} */
+
+@media screen and (min-width: 1441px){
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-images {
+        width: 538px;
+        gap: 0;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+
+    .background-hijau, .background-gelombang, .background-gelombang-bawah {
+        max-width: 1400px;
+        overflow: hidden;
     }
 }
