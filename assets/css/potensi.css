@@ -130,6 +130,7 @@
     color: #5DC3B2;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 8px;
 }
 
