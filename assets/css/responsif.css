@@ -450,6 +450,10 @@
         box-sizing: border-box;
     }
 
+    .cta {
+        margin-bottom: 18px;
+    }
+
     /* Navbar: sembunyikan menu desktop, tampilkan hamburger */
     .nav {
         /* use responsive side gap defined in main stylesheet; fallback to small fixed padding if variable not available */
@@ -500,6 +504,9 @@
         scroll-behavior: smooth;
         scrollbar-width: none;
         gap: 0;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        margin-right: 0;
     }
 
     .img-hero, .hero-images img {
@@ -510,12 +517,11 @@
         object-fit: cover;
         flex: 0 0 auto;           
         display: block;
-        margin-top: 12px;
     }
     /* end hero section */
 
     /* Konten utama (container) dan box: beri padding yang cocok */
-    .container { margin: 0 12px; }
+    .container { margin: 0 35px; }
     .box { 
         padding: 32px 20px;
     }
@@ -547,6 +553,12 @@
     }
 
     /* berita section */
+
+    .card-berita {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
     .card {
         gap: 10px;
     }
@@ -574,22 +586,10 @@
         font-size: 16px;
     }
 
-    .background-gelombang {
-        margin: 0;
+    .background-gelombang, .background-gelombang-bawah, .background-hijau {
+        margin: -35px;
         padding: 0;
         overflow: hidden;
-        display: none;
-        background-repeat: no-repeat;
-        position: absolute;
-        z-index: 1;
-    }
-
-    .background-gelombang-bawah {
-        display: none;
-    }
-
-    .background-hijau {
-        display: none;
     }
     /* end berita */
 
@@ -659,12 +659,13 @@
     .link-potensi-2 {
         font-size: 14px;
         padding: 15px;
+        box-shadow: 0px 1px 10px 0 rgba(223, 108, 0, 0.105);
     }
 
     .cta-potensi {
         margin-top: 0;
         margin-right: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
 
     .card-potensi {
